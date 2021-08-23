@@ -21,7 +21,7 @@
     "start": "webpack serve --hot --mode development"
   },
   "bin": {
-    "new": "./generate-app.js"
+    "tsx-app": "./bin/generate-app.js"
   },
   "dependencies": {
     "react": "^17.0.2",

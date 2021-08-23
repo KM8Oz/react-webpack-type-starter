@@ -1,5 +1,5 @@
 {
-  "name": "react-webpack-type-starter",
+  "name": "tsx-webpack",
   "version": "1.0.10",
   "description": "clear ",
   "main": "index.js",
@@ -19,6 +19,9 @@
     "build-dev": "webpack --mode development",
     "build-prod": "webpack --mode production",
     "start": "webpack serve --hot --mode development"
+  },
+  "bin": {
+    "new": "./generate-app.js"
   },
   "dependencies": {
     "react": "^17.0.2",

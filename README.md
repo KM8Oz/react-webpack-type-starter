@@ -35,7 +35,7 @@
 **All commands**
 
 Command | Description
-         ---     |  ---
+---|---
     `clean`      | `rm dist/bundle.js`
     `build-dev`  | `webpack --mode development`
     `build-prod` | `webpack --mode production`

@@ -5,9 +5,7 @@
 * **[Webpack](https://webpack.js.org/)** (5.x)
 * **[Typescript](https://www.typescriptlang.org/)** (4.x)
 * **[Hot Module Replacement (HMR)](https://webpack.js.org/concepts/hot-module-replacement/)** ([React Hot Loader](https://github.com/gaearon/react-hot-loader))
-* light Production build script (Webpack) with :
-- HtmlWebpackPlugin
-- BundleAnalyzerPlugin
+* light Production build script (Webpack) with HtmlWebpackPlugin & BundleAnalyzerPlugin.
 
 ## Installation
 1. Clone/download repo

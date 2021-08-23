@@ -1,31 +1,46 @@
-# Empty project.
+# React Webpack Typescript Starter
+> Minimal starter with hot module replacement (HMR) for rapid development.
 
-## Building and running on localhost
+* **[React](https://facebook.github.io/react/)** (17.x)
+* **[Webpack](https://webpack.js.org/)** (5.x)
+* **[Typescript](https://www.typescriptlang.org/)** (4.x)
+* **[Hot Module Replacement (HMR)](https://webpack.js.org/concepts/hot-module-replacement/)** ([React Hot Loader](https://github.com/gaearon/react-hot-loader))
+* Production build script (Webpack)
+* Image loading/minification ([Image Webpack Loader](https://github.com/tcoopman/image-webpack-loader))
+* [SASS](http://sass-lang.com/) support
+* Code linting ([ESLint](https://github.com/eslint/eslint)) and formatting ([Prettier](https://github.com/prettier/prettier))
+* Test framework ([Jest](https://facebook.github.io/jest/))
 
-First install dependencies:
+## Installation
+1. Clone/download repo
+2. `yarn install` (or `npm install` for npm)
 
-```sh
-npm install
-```
+## Usage
+**Development**
 
-To run in hot module reloading mode:
+`yarn run start-dev`
 
-```sh
-npm start
-```
+* Build app continuously (HMR enabled)
+* App served @ `http://localhost:8080`
 
-To create a production build:
+**Production**
 
-```sh
-npm run build-prod
-```
+`yarn run start-prod`
 
-To create a development build:
+* Build app once (HMR disabled) to `/dist/`
+* App served @ `http://localhost:3000`
 
-```sh
-npm run build-dev
-```
+---
 
-## Running
+**All commands**
 
-Open the file `dist/index.html` in your browser
+Command | Description
+         ---     |  ---
+    `clean`      | `rm dist/bundle.js`
+    `build-dev`  | `webpack --mode development`
+    `build-prod` | `webpack --mode production`
+    `start`      | `webpack serve --hot --mode development`
+**Note**: replace `yarn` with `npm` in `package.json` if you use npm.
+
+## See also
+* [Team website](https://kmoz.dev)

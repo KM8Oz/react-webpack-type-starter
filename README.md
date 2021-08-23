@@ -1,31 +1,26 @@
-# Empty project.
+# React Webpack Typescript Starter
+> Minimal starter with hot module replacement (HMR) for rapid development.
 
-## Building and running on localhost
+* **[React](https://facebook.github.io/react/)** (17.x)
+* **[Webpack](https://webpack.js.org/)** (5.x)
+* **[Typescript](https://www.typescriptlang.org/)** (4.x)
+* [Hot Module Replacement (HMR)](https://webpack.js.org/concepts/hot-module-replacement/)
+* light Production build script (Webpack) with HtmlWebpackPlugin & BundleAnalyzerPlugin.
 
-First install dependencies:
+## Installation
+1. Clone/download repo
+2. `yarn install` (or just `npx tsx-app <your-app-name>` for npm
+---
 
-```sh
-npm install
-```
+**All commands**
 
-To run in hot module reloading mode:
+Command | Description
+---|---
+`clean`|`rm dist/bundle.js`
+`build-dev`|`webpack --mode development`
+`build-prod`|`webpack --mode production`
+`start`|`webpack serve --hot --mode development`
+**Note**: replace `yarn` with `npm` in `package.json` if you use npm.
 
-```sh
-npm start
-```
-
-To create a production build:
-
-```sh
-npm run build-prod
-```
-
-To create a development build:
-
-```sh
-npm run build-dev
-```
-
-## Running
-
-Open the file `dist/index.html` in your browser
+## See also
+* [Team website](https://kmoz.dev)

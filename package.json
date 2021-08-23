@@ -1,6 +1,6 @@
 {
-  "name": "tsx-webpack",
-  "version": "1.0.10",
+  "name": "tsx-app",
+  "version": "1.0.19",
   "description": "clear ",
   "main": "index.js",
   "keywords": [

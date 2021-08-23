@@ -36,10 +36,10 @@
 
 Command | Description
 ---|---
-    `clean`      | `rm dist/bundle.js`
-    `build-dev`  | `webpack --mode development`
-    `build-prod` | `webpack --mode production`
-    `start`      | `webpack serve --hot --mode development`
+`clean`|`rm dist/bundle.js`
+`build-dev`|`webpack --mode development`
+`build-prod`|`webpack --mode production`
+`start`|`webpack serve --hot --mode development`
 **Note**: replace `yarn` with `npm` in `package.json` if you use npm.
 
 ## See also
